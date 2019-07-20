@@ -1,0 +1,9 @@
+CREATE TABLE `polls_code` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `knowledge` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `number` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `Time` time(6) NOT NULL,
+  `Result` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  `user` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
